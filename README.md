@@ -18,7 +18,7 @@ I designed the circuit so that it may installed on Arduino Uno dev boards as a s
 
 The shield I implemented is as following:  
 
-![board](res/board.png "SD Card Shield")
+![shield](res/shield.png "SD Card Shield")
 
 The pins close to the edges should be connected to male pins so that the correspond to the female pin headers of the Uno board. The pins next to these represent female headers, so that another shield can come on top this shield. You can omit these if you won't stack another shield. The SD card module can be directly soldered to the PCB, however, this is not a recommended practice. Instead, female pin headers should be used in between. The pads in the middle stand for airwires. My custom CNC machine cannot etch both sides of PCBs, so these should be connected by wires on top of the PCB.  
 
