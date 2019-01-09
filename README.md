@@ -22,11 +22,13 @@ The shield I implemented is as the following:
 
 ![shield](res/shield.png "SD Card Shield")
 
-The pads close to the edges should be soldered to male pins so that they correspond to the female pin headers of the Uno board. The pins next to these represent female headers, so that another shield can be stacked on top of this shield. You can omit these if you won't use another shield. The SD card module can be directly soldered to the PCB, however, this is not a recommended practice. Instead, female pin headers should be used in between. The pads in the middle stand for airwires. My custom CNC machine cannot etch both sides of PCBs, so these should be connected by wires on top of the PCB.  
+The pads close to the top and bottom edges is for pins so that they correspond to the female headers of the Uno board. You can solder male pins, but if you want to stack another shield on top of this, then you need to solder female pins with long legs here. You can also omit most of the pins, for example the whole Analog IO group.  
+
+The SD card module should be directly soldered to the PCB, if you wish to stack another shield on top of this. Using female headers in between the SD module and the shield increases height of the total assembly, which requires the upper shield to have very long legs. The pads in the middle is for an airwire. My custom CNC machine cannot etch both sides of PCBs, so these pads should be connected by a wire on top of the PCB.  
 
 You can find the EAGLE files in the `circuit` folder. But used parts come from my custom EAGLE parts library. So, you need to have it introduced to EAGLE beforehand. The library can be downloaded [here](https://github.com/tolgakurt/eagle-parts-library).  
 
-Here are some pictures of the built board:  
+Here are some pictures of the built board (from an earlier version, which is overridden by the current version, however they represent the idea. I will update once I took pictures of the new build.):  
 
 ![circuit_top](res/circuit_top.jpg "Circuit top view")
 ![circuit_bottom](res/circuit_bottom.jpg "Circuit bottom view")
