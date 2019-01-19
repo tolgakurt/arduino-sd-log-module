@@ -337,7 +337,7 @@
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.4" drill="0">
+<class number="0" name="default" width="0.5" drill="0">
 <clearance class="0" value="0.3"/>
 </class>
 <class number="1" name="ac" width="1" drill="0">

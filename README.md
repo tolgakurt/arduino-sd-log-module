@@ -28,9 +28,8 @@ The SD card module should be directly soldered to the PCB, if you wish to stack 
 
 You can find the EAGLE files in the `circuit` folder. But used parts come from my custom EAGLE parts library. So, you need to have it introduced to EAGLE beforehand. The library can be downloaded [here](https://github.com/tolgakurt/eagle-parts-library).  
 
-Here are some pictures of the built board (from an earlier version, which is overridden by the current version, however they represent the idea. I will update once I took pictures of the new build.):  
+Here are some pictures of the built board:  
 
-![circuit_top](res/circuit_top.jpg "Circuit top view")
 ![circuit_bottom](res/circuit_bottom.jpg "Circuit bottom view")
 ![assembled_top](res/assembled_top.jpg "Assembled top view")
 ![assembled_iso](res/assembled_iso.jpg "Assembled ISO view")
